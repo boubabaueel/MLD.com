@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-  <script src="script.js"></script>
+ 
   <link href="style.css" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta charset = "utf-8">
     <title> MLD Luxury| Contact</title>
     </head>
     <body>
+  
         <div class="nav-a">
  
             <ul class="nav">
@@ -17,20 +18,45 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-        <div>
-            <h1 id="contact-title">
-                WE WANT TO HEAR FROM YOU!   
-            </h1>
- </div>
 
  <div id="contact">
         <form class="box" action="https://formsubmit.co/boubabauel@gmail.com" method="POST" id="form">
-            <input type="text" name="name" required placeholder="Enter Your Name"> <br> <br>
+            <input  type="text" name="name" required placeholder="Enter Your Name"> <br> <br>
             <input type="text" name="email" required placeholder="Enter your email">  <br> <br>
             <input type="text" name="phone" required placeholder="Enter your phone number"> <br> <br>
-            <input type="text" name="subject" required placeholder="Type your message here"> <br> <br>
+           <textarea id="textarea" placeholder="Type Message Here"></textarea> <br> <br>
             <button type="submit">Submit</button>
        </form>
     </div>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">MLD LUXURY</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="service.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <h1 id="contact-title">
+            WE WANT TO HEAR FROM YOU!   
+        </h1>
+</div>
+    <script src="script.js"> </script>
     </body>
 </html>
