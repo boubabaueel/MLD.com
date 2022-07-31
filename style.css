@@ -1,12 +1,18 @@
 img{
     width: 300px;
 }
+#thankyou{
+    background-image: url(NYC\ Evening.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
 #thanks{
-    color: #1a7795;
+    color: #e31818;
     font-family:sans-serif;
     text-align: center;
     width: 300px;
     padding: 40px;
+   
     position: absolute;
     top: 50%;
     left: 50%;
