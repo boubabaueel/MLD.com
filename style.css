@@ -186,7 +186,7 @@ img{
     grid-template-columns: repeat(3,1fr) ;
     grid-template-rows:repeat(3,minmax(150px,auto)) ;
     max-width: 1200px;
-     background-color: rgba(107, 103, 103, 0.524);
+    background-color: rgba(107, 103, 103, 0.524);
 }
 #home{
     background-image: url(nyc.jpg);
@@ -313,7 +313,6 @@ font-family:Georgia, 'Times New Roman', Times, serif
     
     .nav-logo {
         font-size: 1.7rem;
-        /* font-weight: 100px; */
         color: #b7573a;
         text-decoration: none;
     }
