@@ -1,3 +1,44 @@
+#slider {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .slider-wrapper {
+    position: relative;
+    width: 2400px; /* 3 images x 800px */
+    height: 400px;
+  }
+
+  .slider-image {
+    position: absolute;
+    top: 0;
+  }
+  
+  .slider-image:nth-child(1) {
+    left: 0;
+  }
+  
+  .slider-image:nth-child(2) {
+    left: 800px;
+  }
+  
+  .slider-image:nth-child(3) {
+    left: 1600px;
+  }
+  @keyframes slide {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -1600px;
+    }
+  }
+  
+  .slider-wrapper {
+    animation: slide 5s infinite;
+  }
+
 img{
     width: 300px;
 }
